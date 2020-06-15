@@ -170,8 +170,8 @@ Sets `advanced` -> `elapsed` (persistent). Payload format is `{"value": VALUE}`,
 #### zigbee2mqtt/bridge/request/config/logLevel
 Sets `advanced` -> `log_level` (persistent). Payload format is `{"value": VALUE}`, example: `{"value":"debug"}`, response: `{"data":{"value": "debug"},"status":"ok"}`. See [Configuration](../information/configuration.md) for possible values.
 
-
-
+#### zigbee2mqtt/bridge/request/touchlink/factoryReset
+See [Touchlink](./touchlink.md).
 
 
 
@@ -181,9 +181,6 @@ EVERYTHING BELOW THIS IS OLD STUFF
 
 -----------------
 
-
-## zigbee2mqtt/bridge/config/touchlink/factory_reset
-See [Touchlink](./touchlink.md).
 
 ## zigbee2mqtt/bridge/ota_update/+
 See [OTA updates](./ota_updates.md).
